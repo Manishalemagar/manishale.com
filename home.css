@@ -1,0 +1,288 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+html{
+scroll-behavior: smooth;
+
+}
+body{
+background: #080808;
+color: #fff;
+
+}
+.header{
+width: 100%;
+height: 100vh;
+background-image: url();
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.logo{
+width: 140px;
+border-radius: 140px;
+
+
+}
+.containeer{
+padding: 10px 10%;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+bottom: -6px;
+transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+margin-top: 20%;
+font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1  span{
+    color: #ff004f;
+}
+.header-text span{
+    color: #ff004f;
+}
+.header-text p{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100px;
+    font: 1em sans-serif;
+
+}
+
+
+
+
+
+/*----------about-----------*/
+#about{
+padding: 80px 0;
+color: #ababab;
+}
+.row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+width: 100%;
+border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+color: #fff;
+}
+#a{
+    color: #fff;
+    font-size: 20px;
+padding: 10px 10px 10px 10px;
+font-weight: 600;
+}
+#b{
+    color: #fff;
+    font-size: 20px;
+padding: 0px 100% 0px 10px;
+font-weight: 600;
+}
+.icon{
+
+font-size: 50px;
+top: 0;
+}
+/*----------work-----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bodoni Moda',serif;
+box-sizing: border-box;
+}
+.contain{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right,#041308,#0b3317);
+}
+.left-text{
+    flex-basis: 30%;
+}
+.gallery{
+    flex-basis: 50%;
+}
+.heading{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.subheading{
+    color: #ddd;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.gallery{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+
+.box{
+    background-size: cover;
+    background-position: top;
+    color-scheme: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+}
+.box:hover{
+    background: #999;
+    background-position: center;
+    box-shadow:  0 0 4px #fff;
+
+}
+.row-2{
+    grid-row: span 2;
+}
+.col-2{
+    grid-column: span 2;
+}
+
+
+
+/*----------contact-----------*/
+
+.contact-left{
+    flex-basis: 35%;
+}
+ .contact--right{   
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p ion-icon{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn{
+display: block;
+margin: 50px auto;
+width: fit-content;
+border: 1px solid #ff004f;
+padding: 14px 50px;
+border-radius: 6px;
+text-decoration: none;
+color: #fff;
+transition: 0.5s;
+}
+.btn:hover{
+background: #ff004f;
+
+}
+.btn.btn2{
+    display: inline-block ;
+    background: #ff004f;
+
+}
+.contact--right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------cv-----------*/
